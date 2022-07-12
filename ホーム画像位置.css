@@ -1,0 +1,162 @@
+#head{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#STEP1{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#STEP1{
+  position: absolute;
+  top: 280;
+  left: 100;
+}
+#STEP1{
+  width: 200px;
+  height: auto;
+}
+#STEP1{
+  display: inline-block;
+  widin:10px
+}
+
+#STEP2{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#STEP2{
+  position: absolute;
+  top: 460;
+  left: 1025;
+}
+#STEP2{
+  width: 200px;
+  height: auto;
+}
+#STEP2{
+  display: inline-block;
+  widin:10px
+}
+
+#STEP3{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#STEP3{
+  position: absolute;
+  top: 705;
+  left: 100;
+}
+#STEP3{
+  width: 200px;
+  height: auto;
+}
+#STEP3{
+  display: inline-block;
+  widin:10px
+}
+
+#STEP4{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#STEP4{
+  position: absolute;
+  top: 885;
+  left: 1025;
+}
+#STEP4{
+  width: 200px;
+  height: auto;
+}
+#STEP4{
+  display: inline-block;
+  widin:10px
+}
+
+#STEP5{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#STEP5{
+  position: absolute;
+  top: 1180;
+  left: 100;
+}
+#STEP5{
+  width: 200px;
+  height: auto;
+}
+#STEP5{
+  display: inline-block;
+  widin:10px
+}
+
+#STEP6{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#STEP6{
+  position: absolute;
+  top: 1360;
+  left: 1025;
+}
+#STEP6{
+  width: 200px;
+  height: auto;
+}
+#STEP6{
+  display: inline-block;
+  widin:10px
+}
+
+#footer{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+#footer{
+  position: absolute;
+  top: 1600;
+  left: 0;
+  z-index: 3
+}
+#footer{
+  width: 200px;
+  height: auto;
+
+}
+#footer{
+  display: inline-block;
+  widin:10px
+}
+
+#totop{
+  position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
