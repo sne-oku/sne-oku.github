@@ -1,0 +1,64 @@
+#title{
+   position: absolute;
+   top: -20;
+   left: 20;
+   z-index: 2;
+ }
+
+ #title {
+ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+ }
+ #title{
+   font-size: 80px;
+   color: 	#black;
+   display: inline-block;
+   width: 1200px;
+ }
+
+ #subtitle {
+ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+ }
+ #subtitle{
+   font-size: 35px;
+ }
+ #subtitle{
+   color: 	#black;
+ }
+ #subtitle{
+   display: inline-block;
+   width: 1000px;
+ }
+
+ #文 {
+ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+ }
+ #文{
+   font-size: 25px;
+ }
+ #文{
+   color: 	#black;
+ }
+ #文{
+   display: inline-block;
+   width: 1400px;
+ }
+
+ #tyui {
+ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+ }
+ #tyui{
+   font-size: 25px;
+ }
+ #tyui{
+   color: 	#black;
+ }
+ #tyui{
+   z-index: 3
+ }
+ #tyui{
+   position: absolute;
+   top: 1600;
+   left: 75;
+   display: inline-block;
+   width: 1400px;
+   }
