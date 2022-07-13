@@ -1,0 +1,201 @@
+#title{
+  position: absolute;
+  top: 0;
+  left: 20;
+  z-index: 2;
+}
+#title {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#title{
+  font-size: 60px;
+}
+#title{
+  color: 	#black;
+}
+#title{
+  display: inline-block;
+  width: 1200px;
+}
+
+#tag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#subtitle{
+  position: absolute;
+  top: 100;
+  left: 20;
+  z-index: 2
+}
+#subtitle {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#subtitle{
+  font-size: 35px;
+}
+#subtitle{
+  color: 	#black;
+}
+#subtitle{
+  display: inline-block;
+  width: 1200px;
+}
+
+#endnobun {
+  position: absolute;
+  top: 420;
+  left: 50;
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#endnobun{
+  font-size: 35px;
+}
+#endnobun{
+  color: 	#black;
+}
+#endnobun{
+  display: inline-block;
+  width: 1200px;
+}
+
+
+#start{
+  position: absolute;
+  top: 200;
+  left: 500;
+}
+
+#¥a{
+  position: absolute;
+  top: 240;
+  left: 50;
+}
+#¥b{
+  position: absolute;
+  top: 240;
+  left: 250;
+}
+#¥c{
+  position: absolute;
+  top: 240;
+  left: 450;
+}
+#¥d{
+  position: absolute;
+  top: 240;
+  left: 650;
+}
+#¥e{
+  position: absolute;
+  top: 240;
+  left: 850;
+}
+#¥f{
+  position: absolute;
+  top: 240;
+  left: 1050;
+}
+
+#OK{
+  position: absolute;
+  top: 200;
+  left: 400;
+}
+
+#ng{
+  position: absolute;
+  top: 200;
+  left: 400;
+}
+
+#next{
+  position: absolute;
+  top: 500;
+  left: 950;
+}
+
+#onemore{
+  position: absolute;
+  top: 500;
+  left: 950;
+}
+
+#happy{
+  position: absolute;
+  top: 200;
+  left: 400;
+}
+
+#toSTEP2{
+  position: absolute;
+  top: 400;
+  left: 1100;
+}
+#tohome{
+  position: absolute;
+  top: 580;
+  left: 950;
+}
+
+#homeback{
+  position: absolute;
+  top: 700;
+  left: 50;
+}
+#kekka{
+  position: absolute;
+  top: 480;
+  left: 50;
+}
+#kekka {
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#kekka{
+  font-size: 90px;
+}
+#kekka{
+  color: 	#black;
+}
+#kekka{
+  display: inline-block;
+  width: 1200px;
+}
+
+#num{
+  font-size: 300%;
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+  color:
+  width:100px;
+  height: 60px;
+  text-align: right;
+  position: absolute;
+  top: 450px;
+  left: 400px;
+
+}
+#button{
+  font-size: 300%;
+  color: white;
+  width: 200px;
+  height: 75px;
+  background: #008080;
+  border-radius: 40px;
+  position: absolute;
+  top: 530px;
+  left: 565px;
+}
+
+#en{
+  font-size: 60px;
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+  color: 	#black;
+  display: inline-block;
+  width: 1000px;
+  position: absolute;
+  top: 378px;
+  left: 925px;
+}
