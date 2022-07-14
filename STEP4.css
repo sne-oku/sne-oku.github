@@ -158,8 +158,8 @@ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
 
 #hint{
   position: absolute;
-  top: 200;
-  left: 1300;
+  top: -30;
+  left: 200;
 }
 
 #en{
