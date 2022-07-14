@@ -1,0 +1,83 @@
+<!DOCTIPE html>
+<html>
+<head>
+<title>ICT教材</title>
+<link rel="stylesheet" href="STEP2.css">
+<link rel="stylesheet" href="STEP2マウスオーバー.css">
+</head>
+<body>
+  <h1 id="title">STEP2　お金をはらおう！　コインのお金</h1>
+  <h2 id="subtitle">下の数字のお金をはらわないといけないよ！どのお金を使う？
+    <br>問い1<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    をぴったりはらってみよう！
+  </h2>
+
+<h3 id="nedan">55円</h3>
+<div id="tag">
+  <img src="STEP2tag.png"width="1500"height="175">
+</div>
+
+
+<div id="¥a">
+  <img src="1円.png"width="200"height="200">
+</div>
+<div id="¥b">
+  <img src="5円.png"width="200"height="200">
+</div>
+<div id="¥c">
+  <img src="10円.png"width="200"height="200">
+</div>
+<div id="¥d">
+  <img src="50円.png"width="200"height="200">
+</div>
+<div id="¥e">
+  <img src="100円.png"width="200"height="200">
+</div>
+
+<div id="box">
+&nbsp
+<label><input type="checkbox" id="check1">1円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check2">5円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check3">10円</label>
+&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check4">50円</label>
+&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check5">100円</label>
+</div>
+
+<div>
+<input type="button" value="まるつけ" id="checkButton">
+</div>
+
+<script>
+function butotnClick(){
+  if (!checkbox1.checked && checkbox2.checked && !checkbox3.checked && checkbox4.checked && !checkbox5.checked ){
+    location.replace("STEP2A1-ok.html");
+  } else {
+    location.replace("STEP2A1-ng.html");
+  }
+}
+
+let checkbox1 = document.getElementById('check1');
+let checkbox2 = document.getElementById('check2');
+let checkbox3 = document.getElementById('check3');
+let checkbox4 = document.getElementById('check4');
+let checkbox5 = document.getElementById('check5');
+
+
+
+let checkButton = document.getElementById('checkButton');
+checkButton.addEventListener('click', butotnClick);
+</script>
+
+
+<a href="home.html">
+<div id="homeback">
+  <img src="homeback.png"width="100"height="100">
+</div>
+</a>
