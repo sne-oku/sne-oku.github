@@ -1,0 +1,62 @@
+<!DOCTIPE html>
+<html>
+<head>
+<title>ICT教材</title>
+<link rel="stylesheet" href="STEP5.css">
+<link rel="stylesheet" href="STEP5mouthover.css">
+</head>
+<body>
+
+  <h1 id="title">STEP5　お金を数えよう！　まとめ</h1>
+  <h2 id="subtitle">下のお金はぜんぶで何円かな？かぞえてみよう！
+  <br>問5</h2>
+
+<div id="tag">
+  <img src="STEP5tag.png"width="1500"height="175">
+</div>
+<div id="¥a5">
+  <img src="1円.png"width="100"height="100">
+</div>
+<div id="¥b5">
+  <img src="10円.png"width="110"height="110">
+</div>
+<div id="¥c5">
+  <img src="100円.png"width="113"height="113">
+</div>
+<div id="¥d5">
+  <img src="1000円.png"width="300"height="152">
+</div>
+<div id="¥e5">
+  <img src="10000円.png"width="320"height="152">
+</div>
+
+<br>
+       <script type="text/javascript">
+            function marutuke(kingaku){
+               if(kingaku == 11111 ){
+                  location.replace("STEP5A5-ok.html");
+               } else {
+                  location.replace("STEP5A5-ng.html");
+             }
+           }
+      </script>
+
+           <div id="buttons">
+            <input type="answer" id="num" >
+            <input type="button" id="button"value="まるつけ" onclick="marutuke(num.value)" >
+           </div>
+
+           <div id="kekka"></div>
+
+
+
+
+<h3 id="en">円</h3>
+
+<a href="home.html">
+<div id="homeback">
+  <img src="homeback.png"width="100"height="100">
+</div>
+</a>
+
+</body>

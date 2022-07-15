@@ -1,0 +1,300 @@
+#title{
+  position: absolute;
+  top: 0;
+  left: 20;
+  z-index: 2
+}
+#title {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#title{
+  font-size: 60px;
+}
+#title{
+  color: 	#black;
+}
+#title{
+  display: inline-block;
+  width: 1200px;
+}
+
+#tag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#subtitle{
+  position: absolute;
+  top: 100;
+  left: 20;
+  z-index: 2
+}
+#subtitle {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#subtitle{
+  font-size: 35px;
+}
+#subtitle{
+  color: 	#black;
+}
+#subtitle{
+  display: inline-block;
+  width: 1200px;
+}
+
+#endnobun {
+  position: absolute;
+  top: 420;
+  left: 50;
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#endnobun{
+  font-size: 35px;
+}
+#endnobun{
+  color: 	#black;
+}
+#endnobun{
+  display: inline-block;
+  width: 1200px;
+}
+
+
+#start{
+  position: absolute;
+  top: 200;
+  left: 500;
+}
+
+#¥a1{
+  position: absolute;
+  top: 260;
+  left: 200;
+}
+#¥b1{
+  position: absolute;
+  top: 260;
+  left: 350;
+}
+#¥c1{
+  position: absolute;
+  top: 400;
+  left: 200;
+}
+#¥d1{
+  position: absolute;
+  top: 400;
+  left: 350;
+}
+#¥e1{
+  position: absolute;
+  top: 250;
+  left: 530;
+}
+
+#¥a2{
+  position: absolute;
+  top: 360;
+  left: 140;
+}
+#¥b2{
+  position: absolute;
+  top: 360;
+  left: 300;
+}
+#¥c2{
+  position: absolute;
+  top: 360;
+  left: 460;
+}
+#¥d2{
+  position: absolute;
+  top: 350;
+  left: 650;
+}
+#¥e2{
+  position: absolute;
+  top: 350;
+  left: 1000;
+}
+
+#¥a3{
+  position: absolute;
+  top: 360;
+  left: 80;
+}
+#¥b3{
+  position: absolute;
+  top: 360;
+  left: 210;
+}
+#¥c3{
+  position: absolute;
+  top: 350;
+  left: 350;
+}
+#¥d3{
+  position: absolute;
+  top: 350;
+  left: 680;
+}
+#¥e3{
+  position: absolute;
+  top: 350;
+  left: 1030;
+}
+
+#¥a4{
+  position: absolute;
+  top: 360;
+  left: 80;
+}
+#¥b4{
+  position: absolute;
+  top: 360;
+  left: 210;
+}
+#¥c4{
+  position: absolute;
+  top: 350;
+  left: 350;
+}
+#¥d4{
+  position: absolute;
+  top: 350;
+  left: 680;
+}
+#¥e4{
+  position: absolute;
+  top: 350;
+  left: 1030;
+}
+
+#¥a5{
+  position: absolute;
+  top: 360;
+  left: 140;
+}
+#¥b5{
+  position: absolute;
+  top: 360;
+  left: 300;
+}
+#¥c5{
+  position: absolute;
+  top: 360;
+  left: 460;
+}
+#¥d5{
+  position: absolute;
+  top: 350;
+  left: 650;
+}
+#¥e5{
+  position: absolute;
+  top: 350;
+  left: 1000;
+}
+
+#OK{
+  position: absolute;
+  top: 200;
+  left: 400;
+}
+
+#ng{
+  position: absolute;
+  top: 200;
+  left: 400;
+}
+
+#next{
+  position: absolute;
+  top: 570;
+  left: 950;
+}
+
+#onemore{
+  position: absolute;
+  top: 570;
+  left: 950;
+}
+
+#happy{
+  position: absolute;
+  top: 200;
+  left: 400;
+}
+
+#toSTEP6{
+  position: absolute;
+  top: 400;
+  left: 1100;
+}
+#tohome{
+  position: absolute;
+  top: 580;
+  left: 950;
+}
+
+#homeback{
+  position: absolute;
+  top: 700;
+  left: 50;
+}
+#kekka{
+  position: absolute;
+  top: 480;
+  left: 50;
+}
+#kekka {
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#kekka{
+  font-size: 90px;
+}
+#kekka{
+  color: 	#black;
+}
+#kekka{
+  display: inline-block;
+  width: 1200px;
+}
+
+#num{
+  font-size: 300%;
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+  color:
+  width:100px;
+  height: 60px;
+  text-align: right;
+  position: absolute;
+  top: 600px;
+  left: 400px;
+
+}
+#button{
+  font-size: 300%;
+  color: white;
+  width: 200px;
+  height: 75px;
+  background: #008080;
+  border-radius: 40px;
+  position: absolute;
+  top: 670px;
+  left: 550px;
+}
+
+#en{
+  font-size: 60px;
+  font-family: 'ヒラギノ丸ゴ ProN'
+  color: 	#black;
+  display: inline-block;
+  width: 1000px;
+  position: absolute;
+  top: 527px;
+  left: 925px;
+}
