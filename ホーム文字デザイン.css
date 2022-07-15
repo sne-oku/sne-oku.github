@@ -62,3 +62,23 @@
    display: inline-block;
    width: 1400px;
    }
+
+#torisetu{
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+  }
+#torisetu{
+  font-size: 25px;
+  }
+#torisetu{
+  color: 	#black;
+  }
+#torisetu{
+  z-index: 3
+  }
+#torisetu{
+  position: absolute;
+  top: 1680;
+  left: 75;
+  display: inline-block;
+  width: 1400px;
+    }
