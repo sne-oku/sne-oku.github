@@ -1,0 +1,82 @@
+<!DOCTIPE html>
+<html>
+<head>
+<title>ICT教材</title>
+<link rel="stylesheet" href="STEP6.css">
+<link rel="stylesheet" href="STEP6mouthover.css">
+</head>
+<body>
+  <h1 id="title">STEP6　お金をはらおう！　まとめ</h1>
+  <h2 id="subtitle">下の数字のお金をはらわないといけないよ！どのお金を使う？
+    <br>問い2<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    をぴったりはらってみよう！
+  </h2>
+
+<h3 id="nedan">6100円</h3>
+<div id="tag">
+  <img src="STEP6tag.png"width="1500"height="175">
+</div>
+
+
+<div id="¥a2">
+  <img src="10円.png"width="110"height="110">
+</div>
+<div id="¥b2">
+  <img src="100円.png"width="110"height="110">
+</div>
+<div id="¥c2">
+  <img src="500円.png"width="113"height="113">
+</div>
+<div id="¥d2">
+  <img src="1000円.png"width="300"height="152">
+</div>
+<div id="¥e2">
+  <img src="5000円.png"width="312"height="152">
+</div>
+
+<div id="box">
+&nbsp
+<label><input type="checkbox" id="check1">10円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check2">100円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check3"> 500円</label>
+&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check4">1000円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check5"> 5000円</label>
+
+<div>
+<input type="button" value="まるつけ" id="checkButton">
+</div>
+
+<script>
+function butotnClick(){
+  if (!checkbox1.checked && checkbox2.checked && !checkbox3.checked && checkbox4.checked && checkbox5.checked ){
+    location.replace("STEP6A2-ok.html");
+  } else {
+    location.replace("STEP6A2-ng.html");
+  }
+}
+
+let checkbox1 = document.getElementById('check1');
+let checkbox2 = document.getElementById('check2');
+let checkbox3 = document.getElementById('check3');
+let checkbox4 = document.getElementById('check4');
+let checkbox5 = document.getElementById('check5');
+
+
+
+let checkButton = document.getElementById('checkButton');
+checkButton.addEventListener('click', butotnClick);
+</script>
+
+
+<a href="home.html">
+<div id="homeback">
+  <img src="homeback.png"width="100"height="100">
+</div>
+</a>

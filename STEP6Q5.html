@@ -1,0 +1,120 @@
+<!DOCTIPE html>
+<html>
+<head>
+<title>ICT教材</title>
+<link rel="stylesheet" href="STEP6.css">
+<link rel="stylesheet" href="STEP6mouthover.css">
+</head>
+<body>
+  <h1 id="title">STEP6　お金をはらおう！　まとめ</h1>
+  <h2 id="subtitle">下の数字のお金をはらわないといけないよ！どのお金を使う？
+    <br>問5<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbspをはらってみよう！
+  </h2>
+
+<h3 id="nedan">16400円</h3>
+<div id="tag">
+  <img src="STEP6tag.png"width="1500"height="175">
+</div>
+
+
+<div id="¥a5">
+  <img src="100円.png"width="110"height="110">
+</div>
+<div id="¥b5">
+  <img src="500円.png"width="113"height="113">
+</div>
+<div id="¥c5">
+  <img src="1000円.png"width="300"height="152">
+</div>
+<div id="¥d5">
+  <img src="5000円.png"width="312"height="152">
+</div>
+<div id="¥e5">
+  <img src="10000円.png"width="320"height="152">
+</div>
+
+<div class="balloonoya">
+ <div id="hint">
+  <img src="hint.png"width="200"height="120">
+ </div>
+  <span class="balloon"  >ピッタリはむりみたい...<br>おつりがあるってことだね！</span>
+</div>
+
+<style type="text/css">
+.balloonoya {
+  position   : relative;
+  top: 550;
+  left: 600;
+}
+.balloonoya:hover .balloon {
+  display: inline;
+}
+.balloon {
+  position: absolute;
+  display: none;
+  padding: 2px;
+  background-color: rgba(199, 102, 255, 0);
+  width:400px;
+  margin-left:410px;
+  margin-top: 0px;
+  font-size: 150%;
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+.balloon:after{
+  border-bottom: 0px solid rgba(102, 102, 255, 0.5);
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  left: 50px;
+  left: 5%;
+  content: "";
+  position: absolute;
+}
+</style>
+
+<div id="box">
+&nbsp
+<label><input type="checkbox" id="check1">100円</label>
+&nbsp&nbsp
+<label><input type="checkbox" id="check2">500円</label>
+&nbsp&nbsp
+<label><input type="checkbox" id="check3">1000円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check4">5000円</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label><input type="checkbox" id="check5">10000円</label>
+
+<div>
+<input type="button" value="まるつけ" id="checkButton">
+</div>
+
+<script>
+function butotnClick(){
+  if (!checkbox1.checked && checkbox2.checked && checkbox3.checked && checkbox4.checked && checkbox5.checked ){
+    location.replace("STEP6A5-ok.html");
+  } else {
+    location.replace("STEP6A5-ng.html");
+  }
+}
+
+let checkbox1 = document.getElementById('check1');
+let checkbox2 = document.getElementById('check2');
+let checkbox3 = document.getElementById('check3');
+let checkbox4 = document.getElementById('check4');
+let checkbox5 = document.getElementById('check5');
+
+
+
+let checkButton = document.getElementById('checkButton');
+checkButton.addEventListener('click', butotnClick);
+</script>
+
+
+<a href="home.html">
+<div id="homeback">
+  <img src="homeback.png"width="100"height="100">
+</div>
+</a>
