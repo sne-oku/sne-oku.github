@@ -267,13 +267,13 @@ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
 #num{
   font-size: 300%;
   font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
-  color:
-  width:100px;
+  color: black;
+  width: 300px;
   height: 60px;
   text-align: right;
   position: absolute;
   top: 600px;
-  left: 400px;
+  left: 500px;
 
 }
 #button{
@@ -290,11 +290,11 @@ font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
 
 #en{
   font-size: 60px;
-  font-family: 'ヒラギノ丸ゴ ProN'
+  font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
   color: 	#black;
   display: inline-block;
   width: 1000px;
   position: absolute;
   top: 527px;
-  left: 925px;
+  left: 825px;
 }
