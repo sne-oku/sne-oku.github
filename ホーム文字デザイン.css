@@ -1,67 +1,212 @@
+
+
 #title{
-   position: absolute;
-   top: -20;
-   left: 20;
-   z-index: 2;
- }
+  position: absolute;
+  top: -20;
+  left: 20;
+  z-index: 2;
+}
 
- #title {
- font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
- }
- #title{
-   font-size: 80px;
-   color: 	#black;
-   display: inline-block;
-   width: 1200px;
- }
+#title {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#title{
+  font-size: 80px;
+  color: 	#black;
+  display: inline-block;
+  width: 1200px;
+}
 
- #subtitle {
- font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
- }
- #subtitle{
-   font-size: 35px;
- }
- #subtitle{
-   color: 	#black;
- }
- #subtitle{
-   display: inline-block;
-   width: 1000px;
- }
+#subtitle1 {
+  position: absolute;
+  top: 190;
+  left: 50;
+}
+#subtitle1 {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#subtitle1{
+  font-size: 35px;
+}
+#subtitle1{
+  color: 	#black;
+}
+#subtitle1{
+  display: inline-block;
+  width: 1000px;
+}
 
- #文 {
- font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
- }
- #文{
-   font-size: 25px;
- }
- #文{
-   color: 	#black;
- }
- #文{
-   display: inline-block;
-   width: 1400px;
- }
+#subtitle2 {
+  position: absolute;
+  top: 620;
+  left: 50;
+}
+#subtitle2 {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#subtitle2{
+  font-size: 35px;
+}
+#subtitle2{
+  color: 	#black;
+}
+#subtitle2{
+  display: inline-block;
+  width: 1000px;
+}
 
- #tyui {
- font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
- }
- #tyui{
-   font-size: 25px;
- }
- #tyui{
-   color: 	#black;
- }
- #tyui{
-   z-index: 3
- }
- #tyui{
-   position: absolute;
-   top: 1600;
-   left: 75;
-   display: inline-block;
-   width: 1400px;
-   }
+#subtitle3 {
+  position: absolute;
+  top: 1050;
+  left: 50;
+}
+#subtitle3 {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#subtitle3{
+  font-size: 35px;
+}
+#subtitle3{
+  color: 	#black;
+}
+#subtitle3{
+  display: inline-block;
+  width: 1000px;
+}
+
+#bun1 {
+  position: absolute;
+  top: 300;
+  left: 320;
+}
+#bun1{
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#bun1{
+  font-size: 25px;
+}
+#bun1{
+  color: 	#black;
+}
+#bun1{
+  display: inline-block;
+  width: 1400px;
+}
+
+#bun2{
+  position: absolute;
+  top: 500;
+  left: 100;
+}
+#bun2{
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#bun2{
+  font-size: 25px;
+}
+#bun2{
+  color: 	#black;
+}
+#bun2{
+  display: inline-block;
+  width: 1400px;
+}
+
+#bun3 {
+  position: absolute;
+  top: 720;
+  left: 320;
+}
+#bun3{
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#bun3{
+  font-size: 25px;
+}
+#bun3{
+  color: 	#black;
+}
+#bun3{
+  display: inline-block;
+  width: 1400px;
+}
+
+#bun4 {
+  position: absolute;
+  top: 900;
+  left: 100;
+}
+#bun4{
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#bun4{
+  font-size: 25px;
+}
+#bun4{
+  color: 	#black;
+}
+#bun4{
+  display: inline-block;
+  width: 1400px;
+}
+
+#bun5 {
+  position: absolute;
+  top: 1160;
+  left: 320;
+}
+#bun5{
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#bun5{
+  font-size: 25px;
+}
+#bun5{
+  color: 	#black;
+}
+#bun5{
+  display: inline-block;
+  width: 1400px;
+}
+
+#bun6 {
+  position: absolute;
+  top: 1400;
+  left: 100;
+}
+#bun6{
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#bun6{
+  font-size: 25px;
+}
+#bun6{
+  color: 	#black;
+}
+#bun6{
+  display: inline-block;
+  width: 1400px;
+}
+
+#tyui {
+font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
+}
+#tyui{
+  font-size: 25px;
+}
+#tyui{
+  color: 	#black;
+}
+#tyui{
+  z-index: 3
+}
+#tyui{
+  position: absolute;
+  top: 1600;
+  left: 75;
+  display: inline-block;
+  width: 1400px;
+  }
 
 #torisetu{
   font-family: 'ヒラギノ丸ゴ ProN','Meiryo UI'
@@ -70,7 +215,7 @@
   font-size: 25px;
   }
 #torisetu{
-  color:#black;
+  color: 	#black;
   }
 #torisetu{
   z-index: 3
